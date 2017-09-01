@@ -9,15 +9,18 @@ army green: 41521F;
 * {
 	font-family: 'El Messiri', Helvetica, Arial, sans-serif;
 }
+.box h1{
+	font-size: 40px;
+	
+}
+
 h1, h2, h3 {
 	font-weight: 700;
 	color: #A89F68;
 }
-.lead {
-    font-size: 16px;
-}
+
 a {
-	color: #A89F68;
+	color: #A89F68 !important;
 }
 a:hover,
 a:focus,
@@ -35,9 +38,9 @@ a:active,
 	transition: .5s all ease;
 }
 .btn-default {
-    color: #fff;
-    background-color: #41521F;
-    border: #41521F;
+    color: #fff !important;
+    background-color: #41521F !important;
+    border: #41521F ;
 }
 .btn {
 	font-weight: 700;
@@ -93,13 +96,17 @@ header#hero {
 	position: relative;
 }
 header#hero h1 {
-	font-size: 400%;
+	font-size: 250%;
 }
 header#hero .box {
 	position: absolute;
 	width: 30%;
 	top: 35vh;
 	bottom: 35vh;
+}
+header#hero .lead {
+    font-size: 100%;
+	
 }
 /* FOUNDATION */
 #foundation {
@@ -124,14 +131,35 @@ header#hero .box {
 }
 
 /*KOALAS4 SECCION 4*/
-#koalas4 {
+
+#koalas h2 {
+	color: #41521F !important;
+	font-size: 160%;
+}
+#koalas small{
+	color: #fff !important;
+	font-size: 70% !important;
+	
+}
+
+#donate {
 	background-image: url(../img/all.jpg);
 	padding: 25em 0;
 }
-#koalas h2, #koalas4 h2 small {
-	color: #fff;
+#donate small{
+	color: #fff !important;
+	font-size: 80%;
+	
 }
-
+#donate .row{
+	padding-top: 0;
+}
+.help{
+	font-size: 60% !important;
+}
+.lead2{
+	font-size: 80%;
+}
 /*con_fonawesome*/
 #con_fonawesome {
 	min-height: 20vh;
