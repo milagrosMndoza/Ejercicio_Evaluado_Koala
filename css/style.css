@@ -14,7 +14,7 @@ h1, h2, h3 {
 	color: #A89F68;
 }
 .lead {
-    font-size: 18px;
+    font-size: 16px;
 }
 a {
 	color: #A89F68;
@@ -118,7 +118,7 @@ header#hero .box {
 .lead_white{
 	color: #fff;
 }
-.img-responsive2{
+#marco{
 	border: 10px #fff solid;
 	
 }
