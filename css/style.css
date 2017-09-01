@@ -162,18 +162,23 @@ header#hero .box {
 	color: grey;
 }
 
+
+
 /*seccion SIETE*/
 
-.seccion-7{
+#donation-options{
 	background-color: #A89F68;
-	padding: 5em 0;
+	padding: 3.5em 0;
 }
-
+#titulo2{
+	color: #41521F;
+	font-size: 20px;
+}
 .donar-plan{
-	font-size: 0.8em;
+	font-size: 1em;
 	letter-spacing: 4px;
-	font-weight: 700;
 	padding-right:22px;
+	color: #171717
 }
 
 .valor{
@@ -193,10 +198,12 @@ header#hero .box {
 
 .precio small{
 	font-size: 14px;
+	
 }
 
 .caja-donar p{
 	font-size: 0.9em;
+	color: #191818;
 }
 
 .caja-donar a{
@@ -208,80 +215,8 @@ header#hero .box {
 }
 
 .negrita{
-	font-weight: 700;
-}
-
-.seccion-7 .titulo-help{
-	padding-bottom: 1em;
-	color:#41521F;
-}
-
-/*seccion donar*/
-.seccion-6{
-	padding: 5em 0;
-}
-
-.titulo-help{
-	padding-bottom: 3em;
-	color:#A89F68;
-}
-
-.fa{
-	color:#A89F68;
-	padding-bottom: 0.5em;
-}
-
-.seccion-6 p{
-	color: grey;
-}
-
-/*seccion SIETE*/
-
-.seccion-7{
-	background-color: #A89F68;
-	padding: 5em 0;
-}
-
-.donar-plan{
-	font-size: 0.8em;
-	letter-spacing: 4px;
-	font-weight: 700;
-	padding-right:22px;
-}
-
-.valor{
-	font-size: 4em;
-}
-
-.precio{
-	color: white;
-	font-size: 6em;
-}
-
-.currency{
-	font-size: 16px;
-	top: -3em;
-	right: 0.5em;
-}
-
-.precio small{
-	font-size: 14px;
-}
-
-.caja-donar p{
-	font-size: 0.9em;
-}
-
-.caja-donar a{
-	background-color:#41521F ;
-	padding: 8px 12px;
-	border-radius: 5px;
-	color: white;
-	border:none;
-}
-
-.negrita{
-	font-weight: 700;
+	font-weight: 700px;
+	color: #191818;
 }
 
 .seccion-7 .titulo-help{
