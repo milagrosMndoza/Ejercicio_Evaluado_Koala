@@ -94,6 +94,7 @@ menu {
 header#hero {
 	background-image: url(../img/portada.jpg);
 	position: relative;
+	padding: 150px 0;
 }
 header#hero h1 {
 	font-size: 250%;
@@ -101,7 +102,7 @@ header#hero h1 {
 header#hero .box {
 	position: absolute;
 	width: 30%;
-	top: 35vh;
+	
 	bottom: 35vh;
 }
 header#hero .lead {
