@@ -94,7 +94,7 @@ menu {
 header#hero {
 	background-image: url(../img/portada.jpg);
 	position: relative;
-	padding: 150px 0;
+	padding: 100px 0;
 }
 header#hero h1 {
 	font-size: 250%;
@@ -139,27 +139,29 @@ header#hero .lead {
 }
 #koalas small{
 	color: #fff !important;
-	font-size: 70% !important;
+	font-size: 50% !important;
 	
 }
-
+/*Seccion Donate*/
 #donate {
 	background-image: url(../img/all.jpg);
-	padding: 25em 0;
+		
 }
 #donate small{
 	color: #fff !important;
 	font-size: 80%;
-	
 }
-#donate .row{
-	padding-top: 0;
+#donate h2{
+	font-size: 120%;
+	margin: 0.5%;
+	margin-top: 1%;
+	padding: 0.5%;
 }
-.help{
+small.help{
 	font-size: 60% !important;
 }
 .lead2{
-	font-size: 80%;
+	font-size: 50%;
 }
 /*con_fonawesome*/
 #con_fonawesome {
